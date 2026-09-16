@@ -61,23 +61,17 @@ Events:
       - Type:
           Name: NPC
           IsOptional: false
-        Name: null
+        Name: occupant
         DefaultValue: null
     Description: Fires when an occupant sits on the seat.
-    Arguments:
-      Name: occupant
-      Type: NPC
   - Name: Vacated
     Parameters:
       - Type:
           Name: NPC
           IsOptional: false
-        Name: null
+        Name: occupant
         DefaultValue: null
     Description: Fires when an occupant leaves the seat.
-    Arguments:
-      Name: occupant
-      Type: NPC
 IsStatic: false
 IsAbstract: false
 IsInstantiable: true

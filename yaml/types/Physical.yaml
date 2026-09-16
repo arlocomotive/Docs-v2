@@ -287,42 +287,31 @@ Events:
       - Type:
           Name: Physical
           IsOptional: false
-        Name: null
+        Name: hit
         DefaultValue: null
     Description: Fires when this object has collide with other object
-    Arguments:
-      Name: hit
-      Type: Physical
   - Name: TouchEnded
     Parameters:
       - Type:
           Name: Physical
           IsOptional: false
-        Name: null
+        Name: hit
         DefaultValue: null
     Description: Fires when this object has stopped colliding with other object
-    Arguments:
-      Name: hit
-      Type: Physical
   - Name: MouseEnter
     Parameters: []
     Description: Fires when cursor is hovered on this object. Only fired locally
-    Arguments: ""
   - Name: MouseExit
     Parameters: []
     Description: Fires when cursor leaves this object. Only fired locally
-    Arguments: ""
   - Name: Clicked
     Parameters:
       - Type:
           Name: Player
           IsOptional: false
-        Name: null
+        Name: player
         DefaultValue: null
     Description: Fires when this object has been clicked by a player
-    Arguments:
-      Name: player
-      Type: Player
 IsStatic: false
 IsAbstract: true
 IsInstantiable: false

@@ -88,21 +88,17 @@ Events:
   - Name: Equipped
     Parameters: []
     Description: Fires when this tool has been equipped
-    Arguments: ""
   - Name: Unequipped
     Parameters: []
     Description: Fires when this tool has been unequipped
-    Arguments: ""
   - Name: Activated
     Parameters: []
     Description: Fires when this tool has been activated (via mouse press or
       `Tool:Activate`)
-    Arguments: ""
   - Name: Deactivated
     Parameters: []
     Description: Fires when this tool has been deactivated (via mouse release or
       `Tool:Deactivate`)
-    Arguments: ""
 IsStatic: false
 IsAbstract: false
 IsInstantiable: true

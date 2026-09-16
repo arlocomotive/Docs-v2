@@ -119,21 +119,17 @@ Events:
       - Type:
           Name: Player
           IsOptional: false
-        Name: null
+        Name: grabber
         DefaultValue: null
     Description: Fires when this object has been grabbed
-    Arguments:
-      Name: grabber
-      Type: Player
   - Name: Released
     Parameters:
       - Type:
           Name: Player
           IsOptional: false
-        Name: null
+        Name: grabber
         DefaultValue: null
     Description: Fires when this object has been released
-    Arguments: ""
 IsStatic: false
 IsAbstract: false
 IsInstantiable: true

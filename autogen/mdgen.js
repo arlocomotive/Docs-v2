@@ -97,6 +97,10 @@ function luaifyParam(param) {
     return luaType
 }
 
+function formatParam(param) {
+    return `${param.Name ?? ""};${luaifyType(param.Type)}`
+}
+
 for (const yamlFile of yamlFiles) {
     const className = path.basename(yamlFile, '.yaml')
     const c = classDataMap[className]
@@ -187,7 +191,7 @@ for (const yamlFile of yamlFiles) {
         appendLine("## Methods")
         appendLine("")
         for (const m of methods) {
-            const params = m.Parameters.map(p => `${p.Name};${luaifyType(p.Type)}${p.IsOptional ? "?" : ""}`);
+            const params = m.Parameters.map(formatParam);
             const returns = m.Returns.map(luaifyType)
     
             appendLine(`### ${m.Name}(${params.join(",")}):(${returns.join(",")}) { method }`)
@@ -203,10 +207,9 @@ for (const yamlFile of yamlFiles) {
         appendLine("## Events")
         appendLine("")
         for (const e of events) {
-            const aargs = e.Arguments ? (Array.isArray(e.Arguments) ? e.Arguments : [e.Arguments]) : [];
-            const args = aargs.map(a => `${a.Name};${a.Type}`)
-    
-            appendLine(`### ${e.Name}(${args.join(",")}) { event }`)
+            const params = e.Parameters.map(formatParam)
+
+            appendLine(`### ${e.Name}(${params.join(",")}) { event }`)
             appendLine("")
             appendLine(e.Description || "Missing documentation!")
             appendLine("")

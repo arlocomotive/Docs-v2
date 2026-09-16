@@ -36,11 +36,9 @@ Events:
   - Name: LocalTestStarted
     Parameters: []
     Description: Fires when local testing starts
-    Arguments: ""
   - Name: LocalTestStopped
     Parameters: []
     Description: Fires when local testing ends
-    Arguments: ""
 IsStatic: true
 IsAbstract: false
 IsInstantiable: false

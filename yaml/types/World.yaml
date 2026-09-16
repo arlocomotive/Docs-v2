@@ -99,11 +99,10 @@ Events:
       - Type:
           Name: number
           IsOptional: false
-        Name: null
+        Name: delta
         DefaultValue: null
     Description: Fires every frame after the world has been rendered. The `delta`
       parameter is the time between the last frame and the current.
-    Arguments: ""
 IsStatic: true
 IsAbstract: false
 IsInstantiable: false

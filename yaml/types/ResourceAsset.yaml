@@ -17,7 +17,6 @@ Events:
   - Name: Loaded
     Parameters: []
     Description: Fires when this asset has loaded
-    Arguments: ""
 IsStatic: false
 IsAbstract: true
 IsInstantiable: false

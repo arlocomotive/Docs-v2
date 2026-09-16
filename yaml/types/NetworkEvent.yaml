@@ -87,30 +87,22 @@ Events:
       - Type:
           Name: Player
           IsOptional: false
-        Name: null
+        Name: sender
         DefaultValue: null
       - Type:
           Name: NetMessage
           IsOptional: false
-        Name: null
+        Name: msg
         DefaultValue: null
     Description: Fires when server receives message from client
-    Arguments:
-      - Name: sender
-        Type: Player
-      - Name: msg
-        Type: NetMessage
   - Name: InvokedClient
     Parameters:
       - Type:
           Name: NetMessage
           IsOptional: false
-        Name: null
+        Name: msg
         DefaultValue: null
     Description: Fires when client receives message from server
-    Arguments:
-      - Name: msg
-        Type: NetMessage
 IsStatic: false
 IsAbstract: false
 IsInstantiable: true

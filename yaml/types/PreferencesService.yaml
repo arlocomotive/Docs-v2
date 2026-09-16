@@ -44,19 +44,14 @@ Events:
       - Type:
           Name: string
           IsOptional: false
-        Name: null
+        Name: settingName
         DefaultValue: null
       - Type:
           Name: any
           IsOptional: false
-        Name: null
+        Name: setTo
         DefaultValue: null
     Description: Fired when a user preference setting is changed.
-    Arguments:
-      - Name: settingName
-        Type: string
-      - Name: setTo
-        Type: any
 IsStatic: true
 IsAbstract: false
 IsInstantiable: false

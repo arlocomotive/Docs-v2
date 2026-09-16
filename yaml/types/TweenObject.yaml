@@ -440,11 +440,9 @@ Events:
   - Name: Finished
     Parameters: []
     Description: Fires when this tween has finished
-    Arguments: ""
   - Name: Canceled
     Parameters: []
     Description: Fires when this tween has been canceled
-    Arguments: ""
 IsStatic: false
 IsAbstract: false
 IsInstantiable: false

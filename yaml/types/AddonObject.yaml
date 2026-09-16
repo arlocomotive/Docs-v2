@@ -68,7 +68,6 @@ Events:
     Parameters: []
     Description: Fires when cleanup has been requested by the creator, this is
       usually fired when updating the addon.
-    Arguments: ""
 IsStatic: false
 IsAbstract: false
 IsInstantiable: false

@@ -207,11 +207,9 @@ Events:
   - Name: Loaded
     Parameters: []
     Description: Fires when this sound has loaded
-    Arguments: ""
   - Name: Finished
     Parameters: []
     Description: Fires when this sound has finished playback
-    Arguments: ""
 IsStatic: false
 IsAbstract: false
 IsInstantiable: true

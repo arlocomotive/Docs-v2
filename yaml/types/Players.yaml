@@ -90,23 +90,17 @@ Events:
       - Type:
           Name: Player
           IsOptional: false
-        Name: null
+        Name: player
         DefaultValue: null
     Description: Fires when player has connected
-    Arguments:
-      Name: player
-      Type: Player
   - Name: PlayerRemoved
     Parameters:
       - Type:
           Name: Player
           IsOptional: false
-        Name: null
+        Name: player
         DefaultValue: null
     Description: Fires when player has disconnected
-    Arguments:
-      Name: player
-      Type: Player
 IsStatic: true
 IsAbstract: false
 IsInstantiable: false

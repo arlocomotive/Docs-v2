@@ -456,11 +456,9 @@ Events:
   - Name: FirstPersonEntered
     Parameters: []
     Description: Fires when camera has entered first person
-    Arguments: ""
   - Name: FirstPersonExited
     Parameters: []
     Description: Fires when camera has exited first person
-    Arguments: ""
 IsStatic: false
 IsAbstract: false
 IsInstantiable: true

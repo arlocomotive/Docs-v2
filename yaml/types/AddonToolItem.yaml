@@ -8,7 +8,6 @@ Events:
   - Name: Pressed
     Parameters: []
     Description: Fires when this tool item has been pressed
-    Arguments: ""
 IsStatic: false
 IsAbstract: false
 IsInstantiable: false

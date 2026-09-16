@@ -40,9 +40,6 @@ Events:
   - Name: Invoked
     Parameters: []
     Description: Fires when this event has been invoked
-    Arguments:
-      Name: ...
-      Type: any
 IsStatic: false
 IsAbstract: false
 IsInstantiable: true

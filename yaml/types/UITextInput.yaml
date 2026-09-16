@@ -141,31 +141,23 @@ Events:
       - Type:
           Name: string
           IsOptional: false
-        Name: null
+        Name: text
         DefaultValue: null
     Description: Fires when user submitted the text
-    Arguments:
-      Name: text
-      Type: string
   - Name: Changed
     Parameters:
       - Type:
           Name: string
           IsOptional: false
-        Name: null
+        Name: text
         DefaultValue: null
     Description: Fires when user changed the text
-    Arguments:
-      Name: text
-      Type: string
   - Name: FocusEnter
     Parameters: []
     Description: Fires when user focuses on this input field
-    Arguments: ""
   - Name: FocusExit
     Parameters: []
     Description: Fires when user defocused from this input field
-    Arguments: ""
 IsStatic: false
 IsAbstract: false
 IsInstantiable: true

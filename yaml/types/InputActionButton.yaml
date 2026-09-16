@@ -36,11 +36,9 @@ Events:
   - Name: Pressed
     Parameters: []
     Description: Fires when this button has been pressed
-    Arguments: ""
   - Name: Released
     Parameters: []
     Description: Fires when this button has been released
-    Arguments: ""
 IsStatic: false
 IsAbstract: false
 IsInstantiable: false

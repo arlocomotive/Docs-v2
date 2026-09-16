@@ -174,10 +174,9 @@ Events:
       - Type:
           Name: Player
           IsOptional: false
-        Name: null
+        Name: player
         DefaultValue: null
     Description: Fires when prompt is interacted with
-    Arguments: ""
 IsStatic: false
 IsAbstract: false
 IsInstantiable: true

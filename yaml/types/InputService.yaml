@@ -264,80 +264,60 @@ Events:
       - Type:
           Name: Vector2
           IsOptional: false
-        Name: null
+        Name: mouseDelta
         DefaultValue: null
     Description: Fires when the mouse is moved
-    Arguments: ""
   - Name: GameFocused
     Parameters: []
     Description: Fires when the game has been focused
-    Arguments: ""
   - Name: GameUnfocused
     Parameters: []
     Description: Fires when the game has been unfocused
-    Arguments: ""
   - Name: GamepadConnected
     Parameters: []
     Description: Fires when gamepad is connected
-    Arguments: ""
   - Name: GamepadDisconnected
     Parameters: []
     Description: Fires when gamepad has been disconnected
-    Arguments: ""
   - Name: KeyDown
     Parameters:
       - Type:
           Name: KeyCode
           IsOptional: false
-        Name: null
+        Name: keycode
         DefaultValue: null
       - Type:
           Name: boolean
           IsOptional: false
-        Name: null
+        Name: gameFocused
         DefaultValue: null
     Description: Fires when key has been pressed
-    Arguments:
-      - Name: keycode
-        Type: KeyCodeEnum
-      - Name: gameFocused
-        Type: boolean
   - Name: KeyUp
     Parameters:
       - Type:
           Name: KeyCode
           IsOptional: false
-        Name: null
+        Name: keycode
         DefaultValue: null
       - Type:
           Name: boolean
           IsOptional: false
-        Name: null
+        Name: gameFocused
         DefaultValue: null
     Description: Fires when key has been released
-    Arguments:
-      - Name: keycode
-        Type: KeyCodeEnum
-      - Name: gameFocused
-        Type: boolean
   - Name: AxisValueChanged
     Parameters:
       - Type:
           Name: KeyCode
           IsOptional: false
-        Name: null
+        Name: keycode
         DefaultValue: null
       - Type:
           Name: number
           IsOptional: false
-        Name: null
+        Name: value
         DefaultValue: null
     Description: Fires when analog input has been changed
-    Arguments:
-      - Name: keycode
-        Type: KeyCodeEnum
-      - Name: value
-        Type: number
 IsStatic: true
 IsAbstract: false
 IsInstantiable: false

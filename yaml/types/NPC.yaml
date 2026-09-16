@@ -386,55 +386,47 @@ Events:
   - Name: Died
     Parameters: []
     Description: Triggered when the NPC dies.
-    Arguments: ""
   - Name: HealthChanged
     Parameters:
       - Type:
           Name: number
           IsOptional: false
-        Name: null
+        Name: newHealth
         DefaultValue: null
       - Type:
           Name: number
           IsOptional: false
-        Name: null
+        Name: oldHealth
         DefaultValue: null
     Description: Fires when the NPC's health changes.
-    Arguments: ""
   - Name: Jumped
     Parameters: []
     Description: Fires when the NPC jumps.
-    Arguments: ""
   - Name: LeftGround
     Parameters: []
     Description: Fires when the NPC is no longer on ground.
-    Arguments: ""
   - Name: Seated
     Parameters:
       - Type:
           Name: Seat
           IsOptional: false
-        Name: null
+        Name: seat
         DefaultValue: null
     Description: Fires when the NPC sits on a seat.
-    Arguments: ""
   - Name: Unseated
     Parameters:
       - Type:
           Name: Seat
           IsOptional: false
-        Name: null
+        Name: seat
         DefaultValue: null
-    Description: Fires when the NPC exits from a seart.
-    Arguments: ""
+    Description: Fires when the NPC exits from a seat.
   - Name: Landed
     Parameters: []
     Description: Triggered when the NPC lands on the ground after a jump or fall.
-    Arguments: ""
   - Name: NavFinished
     Parameters: []
     Description: Triggered when the NPC finishes navigating to a destination.
-    Arguments: ""
 IsStatic: false
 IsAbstract: false
 IsInstantiable: true

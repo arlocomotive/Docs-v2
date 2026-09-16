@@ -402,64 +402,50 @@ Events:
       - Type:
           Name: Instance
           IsOptional: false
-        Name: null
+        Name: child
         DefaultValue: null
     Description: Fires when child has been added to this instance
-    Arguments:
-      Name: child
-      Type: Instance
   - Name: ChildRemoved
     Parameters:
       - Type:
           Name: Instance
           IsOptional: false
-        Name: null
+        Name: child
         DefaultValue: null
     Description: Fires when child has been removed from this instance (either via
       reparent or delete)
-    Arguments:
-      Name: child
-      Type: Instance
   - Name: ChildDeleting
     Parameters:
       - Type:
           Name: Instance
           IsOptional: false
-        Name: null
+        Name: child
         DefaultValue: null
     Description: Fires when child is being deleted from this instance
-    Arguments:
-      Name: child
-      Type: Instance
   - Name: ChildDeleted
     Parameters:
       - Type:
           Name: Instance
           IsOptional: false
-        Name: null
+        Name: child
         DefaultValue: null
     Description: Fires when child has been deleted from this instance
-    Arguments:
-      Name: child
-      Type: Instance
   - Name: TagAdded
     Parameters:
       - Type:
           Name: string
           IsOptional: false
-        Name: null
+        Name: tag
         DefaultValue: null
     Description: Fires when given a tag.
-    Arguments: ""
   - Name: TagRemoved
     Parameters:
       - Type:
           Name: string
           IsOptional: false
-        Name: null
+        Name: tag
         DefaultValue: null
     Description: Fires when a tag is removed.
-    Arguments: ""
 IsStatic: false
 IsAbstract: true
 IsInstantiable: false

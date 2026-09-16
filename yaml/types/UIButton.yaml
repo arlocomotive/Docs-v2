@@ -23,7 +23,6 @@ Events:
   - Name: Clicked
     Parameters: []
     Description: Fires when user click on this button
-    Arguments: ""
 IsStatic: false
 IsAbstract: false
 IsInstantiable: true

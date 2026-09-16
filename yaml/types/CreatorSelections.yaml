@@ -99,19 +99,17 @@ Events:
       - Type:
           Name: Instance
           IsOptional: false
-        Name: null
+        Name: instance
         DefaultValue: null
     Description: Fires when an instance has been selected
-    Arguments: ""
   - Name: Deselected
     Parameters:
       - Type:
           Name: Instance
           IsOptional: false
-        Name: null
+        Name: instance
         DefaultValue: null
     Description: Fires when an instance has been deselected
-    Arguments: ""
 IsStatic: true
 IsAbstract: false
 IsInstantiable: false

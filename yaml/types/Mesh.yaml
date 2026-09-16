@@ -186,7 +186,6 @@ Events:
   - Name: Loaded
     Parameters: []
     Description: Fires when this mesh has been loaded.
-    Arguments: ""
 IsStatic: false
 IsAbstract: false
 IsInstantiable: true

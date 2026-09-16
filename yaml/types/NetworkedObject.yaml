@@ -124,28 +124,21 @@ Events:
       - Type:
           Name: string
           IsOptional: false
-        Name: null
+        Name: propertyName
         DefaultValue: null
     Description: Fires when a property of this object has changed
-    Arguments:
-      Name: propertyName
-      Type: string
   - Name: Renamed
     Parameters: []
     Description: Fires when this object has been renamed
-    Arguments: ""
   - Name: TreeEntered
     Parameters: []
     Description: Fires when object enters the tree
-    Arguments: ""
   - Name: TreeExited
     Parameters: []
     Description: Fires when object exit the tree (via reparent or delete)
-    Arguments: ""
   - Name: Destroying
     Parameters: []
     Description: Fires when this object is being destroyed
-    Arguments: ""
 IsStatic: false
 IsAbstract: true
 IsInstantiable: false

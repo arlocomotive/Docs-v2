@@ -114,10 +114,9 @@ Events:
       - Type:
           Name: Instance
           IsOptional: false
-        Name: null
+        Name: hit
         DefaultValue: null
     Description: Fires when this explosion affects an instance
-    Arguments: ""
 IsStatic: false
 IsAbstract: false
 IsInstantiable: true

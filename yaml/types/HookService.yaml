@@ -10,37 +10,33 @@ Events:
       - Type:
           Name: number
           IsOptional: false
-        Name: null
+        Name: delta
         DefaultValue: null
     Description: Fires every frame.
-    Arguments: ""
   - Name: PreRendered
     Parameters:
       - Type:
           Name: number
           IsOptional: false
-        Name: null
+        Name: delta
         DefaultValue: null
     Description: Fires before the world is rendered.
-    Arguments: ""
   - Name: PostRendered
     Parameters:
       - Type:
           Name: number
           IsOptional: false
-        Name: null
+        Name: delta
         DefaultValue: null
     Description: Fires after the world is rendered.
-    Arguments: ""
   - Name: PhysicsUpdated
     Parameters:
       - Type:
           Name: number
           IsOptional: false
-        Name: null
+        Name: delta
         DefaultValue: null
     Description: Fires on a physics update.
-    Arguments: ""
 IsStatic: true
 IsAbstract: false
 IsInstantiable: false

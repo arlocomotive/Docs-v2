@@ -307,57 +307,49 @@ Events:
       - Type:
           Name: string
           IsOptional: false
-        Name: null
+        Name: message
         DefaultValue: null
     Description: Fires when this player chats
-    Arguments:
-      Name: message
-      Type: string
   - Name: StatChanged
     Parameters:
       - Type:
           Name: Stat
           IsOptional: false
-        Name: null
+        Name: stat
         DefaultValue: null
       - Type:
           Name: any
           IsOptional: false
-        Name: null
+        Name: value
         DefaultValue: null
     Description: Fires when stat value has changed
-    Arguments: ""
   - Name: TeamChanged
     Parameters:
       - Type:
           Name: Team
           IsOptional: false
-        Name: null
+        Name: team
         DefaultValue: null
     Description: Fires when player has been assigned a team
-    Arguments: ""
   - Name: Respawned
     Parameters: []
     Description: Fires when this player has respawned
-    Arguments: ""
   - Name: Grabbed
     Parameters:
       - Type:
           Name: Physical
           IsOptional: false
-        Name: null
+        Name: physical
         DefaultValue: null
-    Description: Missing Documentation
-    Arguments: ""
+    Description: Fires when this player has grabbed an object
   - Name: Ungrabbed
     Parameters:
       - Type:
           Name: Physical
           IsOptional: false
-        Name: null
+        Name: physical
         DefaultValue: null
-    Description: Missing Documentation
-    Arguments: ""
+    Description: Fires when this player has stopped grabbing an object
 IsStatic: false
 IsAbstract: false
 IsInstantiable: false

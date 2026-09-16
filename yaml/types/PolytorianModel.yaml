@@ -187,11 +187,9 @@ Events:
   - Name: RagdollStarted
     Parameters: []
     Description: Fires when ragdoll starts.
-    Arguments: ""
   - Name: RagdollStopped
     Parameters: []
     Description: Fires when ragdoll stops.
-    Arguments: ""
 IsStatic: false
 IsAbstract: false
 IsInstantiable: true

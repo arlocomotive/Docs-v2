@@ -68,12 +68,9 @@ Events:
       - Type:
           Name: number
           IsOptional: false
-        Name: null
+        Name: achievementID
         DefaultValue: null
     Description: Fires when the local player got an achievement
-    Arguments:
-      Name: achievementID
-      Type: number
 IsStatic: true
 IsAbstract: false
 IsInstantiable: false
