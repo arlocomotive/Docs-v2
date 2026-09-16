@@ -118,7 +118,7 @@ for (const c of data.Classes) {
 
     // Add properties
     for (const prop of c.Properties) {
-        if (prop.IsObsolete) continue
+        if (prop.ObsoletionInfo) continue
         obj.Properties.push({
             ...prop,
             Description: existingDescriptions.Properties[prop.Name] || "Missing Documentation"
@@ -127,7 +127,7 @@ for (const c of data.Classes) {
 
     // Add methods
     for (const m of c.Methods) {
-        if (m.IsObsolete) continue
+        if (m.ObsoletionInfo) continue
 
         // Ignore metamethods
         if (m.Name.startsWith("__")) continue
